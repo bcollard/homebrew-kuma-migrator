@@ -4,23 +4,23 @@ cask "kuma-migrator" do
 
   on_macos do
     on_intel do
-      sha256 "36d9eb13d3f43e9be723307613299a6bcea3c82c57b2831959c3850a6bd1e180"
-      url "https://github.com/Kong/kuma-migrator/releases/download/v#{version}/kuma-migrator_#{version}_darwin_amd64.tar.gz"
+      sha256 "7533ec6a02dbef92d6b4f3113d039f2617bea2cbae7361b73633d47b6a96eb39"
+      url "https://github.com/bcollard/kuma-migrator/releases/download/v#{version}/kuma-migrator_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "73ed91d498de255710fd9a5ed574b61f309b0421c4f18e28b30d8167349fccba"
-      url "https://github.com/Kong/kuma-migrator/releases/download/v#{version}/kuma-migrator_#{version}_darwin_arm64.tar.gz"
+      sha256 "8458e4e60e00a40f99f430c401e9f6e652235f85e3101fc9a04a3c1189ff27dc"
+      url "https://github.com/bcollard/kuma-migrator/releases/download/v#{version}/kuma-migrator_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "d3a24c2da5440fdd42a6519b684cbb74ee46f44cb4ab5ce9d3e7a24925d1eaeb"
-      url "https://github.com/Kong/kuma-migrator/releases/download/v#{version}/kuma-migrator_#{version}_linux_amd64.tar.gz"
+      sha256 "e5c6d53f98c082f1b5eb627db5d5874b9b75a3163c893a388763be3a77a2d7d6"
+      url "https://github.com/bcollard/kuma-migrator/releases/download/v#{version}/kuma-migrator_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "1a7db7f06f64f3e3c0a1df35e24386abd91c8c931a2931b77a91bc3146a095ca"
-      url "https://github.com/Kong/kuma-migrator/releases/download/v#{version}/kuma-migrator_#{version}_linux_arm64.tar.gz"
+      sha256 "4fefd0d3a048ef19373053eff36cbf9906b60a9f667daf440d93be96fff92e90"
+      url "https://github.com/bcollard/kuma-migrator/releases/download/v#{version}/kuma-migrator_#{version}_linux_arm64.tar.gz"
     end
   end
 
